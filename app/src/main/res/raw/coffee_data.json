@@ -1,0 +1,104 @@
+{
+  "coffees": [
+    {
+      "name": "Espresso",
+      "price": 2.5,
+      "description": "A strong black coffee made by forcing hot water through finely-ground coffee beans."
+    },
+    {
+      "name": "Cappuccino",
+      "price": 3.5,
+      "description": "A coffee drink made with espresso, hot milk, and steamed milk foam."
+    },
+    {
+      "name": "Latte",
+      "price": 3.0,
+      "description": "A coffee drink made with espresso and steamed milk, often topped with froth."
+    },
+    {
+      "name": "Americano",
+      "price": 2.75,
+      "description": "A diluted espresso with hot water, resembling a drip-brewed coffee."
+    },
+    {
+      "name": "Macchiato",
+      "price": 3.25,
+      "description": "An espresso with a small amount of steamed milk and foam on top."
+    },
+    {
+      "name": "Mocha",
+      "price": 4.0,
+      "description": "An espresso with chocolate syrup, steamed milk, and whipped cream."
+    },
+    {
+      "name": "Flat White",
+      "price": 3.5,
+      "description": "A coffee drink made with espresso and velvety steamed milk."
+    },
+    {
+      "name": "Affogato",
+      "price": 4.25,
+      "description": "A dessert of ice cream or gelato topped with a shot of hot espresso."
+    },
+    {
+      "name": "Vienna Coffee",
+      "price": 4.5,
+      "description": "A blend of coffee, whipped cream, and cocoa powder on top."
+    },
+    {
+      "name": "Egg Coffee",
+      "price": 3.75,
+      "description": "A traditional Vietnamese coffee drink with egg yolks and condensed milk."
+    },
+    {
+      "name": "Black Tea",
+      "price": 2.0,
+      "description": "A type of tea made from the leaves of the Camellia sinensis plant."
+    },
+    {
+      "name": "Green Tea",
+      "price": 2.25,
+      "description": "A type of tea made from unoxidized tea leaves."
+    },
+    {
+      "name": "Chai Tea",
+      "price": 3.5,
+      "description": "A spiced tea drink made with black tea, milk, and various spices."
+    },
+    {
+      "name": "Peppermint Tea",
+      "price": 2.25,
+      "description": "A herbal tea made from peppermint leaves."
+    },
+    {
+      "name": "Jasmine Tea",
+      "price": 2.5,
+      "description": "A type of tea scented with the aroma of jasmine flowers."
+    },
+    {
+      "name": "Earl Grey Tea",
+      "price": 2.25,
+      "description": "A flavored tea with a distinctive citrus flavor from bergamot orange."
+    },
+    {
+      "name": "Bubble Tea",
+      "price": 4.0,
+      "description": "A tea-based drink with chewy tapioca pearls and various flavors."
+    },
+    {
+      "name": "Milk Tea",
+      "price": 3.75,
+      "description": "A tea-based drink made with milk and sweeteners."
+    },
+    {
+      "name": "Lemonade",
+      "price": 2.75,
+      "description": "A sweetened lemon-flavored beverage."
+    },
+    {
+      "name": "Iced Chocolate",
+      "price": 3.5,
+      "description": "Chilled chocolate-flavored drink served with ice."
+    }
+  ]
+}
