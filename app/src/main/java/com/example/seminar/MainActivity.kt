@@ -7,6 +7,7 @@ import androidx.lifecycle.lifecycleScope
 import com.example.seminar.databinding.ActivityMainBinding
 import com.example.seminar.db.ItemDao
 import com.example.seminar.db.ItemDatabase
+import com.example.seminar.lifecycle_observer.Observer
 import com.example.seminar.viewmodel.MainViewModel
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -28,6 +29,8 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.adapter = adapter.withLoadStateFooter(
             MainLoadAdapter()
         )
+
+        lifecycle.addObserver(Observer());
 
         lifecycleScope.launch {
             viewModel.data.collectLatest {
