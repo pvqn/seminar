@@ -15,6 +15,7 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var dao: ItemDao
+    private lateinit var observer: Observer;
     private val viewModel : MainViewModel by viewModels { MainViewModel.factory(dao) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +31,8 @@ class MainActivity : AppCompatActivity() {
             MainLoadAdapter()
         )
 
-        lifecycle.addObserver(Observer());
+        observer = Observer()
+        lifecycle.addObserver(observer)
 
         lifecycleScope.launch {
             viewModel.data.collectLatest {
